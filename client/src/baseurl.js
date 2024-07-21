@@ -1,2 +1,1 @@
-export const baseURL = "http://localhost:3000"
-// export const baseURL = "https://myblog-api-kg8u.onrender.com"
+export const baseURL = "https://myblog-api-qmx2.onrender.com"
