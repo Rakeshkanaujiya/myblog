@@ -1,0 +1,64 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://img.freepik.com/free-photo/3d-render-books-textbook-stack-pencil-pen_107791-14902.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706140800&semt=ais");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+.registerForm{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 7px 0;
+    font-size: 18px;
+}
+
+.registerForm>input{
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.registerForm>input:focus{
+    outline: none;
+}
+
+.registerButton{
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 7px;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 7px;
+    background-color:lightcoral;
+    color: wi;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

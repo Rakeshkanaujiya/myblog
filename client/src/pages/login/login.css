@@ -1,0 +1,69 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?cs=srgb&dl=pexels-lil-artsy-1925536.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+.loginForm{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 7px 0;
+    font-size: 18px;
+}
+
+.loginForm>input{
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.loginForm>input:focus{
+    outline: none;
+}
+
+.loginButton{
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 7px;
+    background-color: rgb(252, 121, 121);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(245, 150, 150);
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 7px;
+    background-color:teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
